@@ -1,29 +1,41 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Leo Dong',
     path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',
   },
+  // {
+  //   label: 'Projects',
+  //   path: '/projects',
+  // },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: 'Photography',
+    path: '/photography',
   },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Art',
+    path: '/art',
   },
   {
-    label: 'Contact',
-    path: '/contact',
+    label: 'Blog',
+    path: '/blog',
   },
+  // {
+  //   label: 'Contact',
+  //   path: '/contact',
+  // },
 ];
 
 export default routes;

@@ -12,32 +12,38 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Leo Dong</h2>
+        <p><a href="mailto:leozhdong@gmail.com">leozhdong@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hey, I&apos;m Leo. </p>
+      <p> I am currently using data science and machine learning to build novel product features at <a href="https://vonto.com/">Vonto</a>.
+        Prior to that, I was doing the same at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
+        the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">this</a>.
+      </p>
+      <p>
+        In my free time at home, I spend it <a href="https://blog.leodong.me">writing</a>, reading and <a href="/art">painting</a>.
+      </p>
+      <p>
+        When I&apos;m out and about I am most likely travelling, playing
+        football, futsal or doing some <a href="https://photo.leodong.me">photography</a>.
+      </p>
+      <p>
+        Other things I have dabbled in include
+        scuba diving, volleyball and skiing.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/blog" className="button">My Blog</Link>}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );
