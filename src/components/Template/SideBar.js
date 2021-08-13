@@ -7,7 +7,7 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const SideBar = () => (
   <section id="sidebar">
-    <section id="intro">
+    <section id="intro" align="center">
       <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
@@ -35,14 +35,14 @@ const SideBar = () => (
         Other things I have dabbled in include
         scuba diving, volleyball and skiing.
       </p>
-      <ul className="actions">
+      <ul className="actions" align="center">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/blog" className="button">My Blog</Link>}
         </li>
       </ul>
     </section>
 
-    <section id="footer">
+    <section id="footer" align="center">
       <ContactIcons />
     </section>
   </section>

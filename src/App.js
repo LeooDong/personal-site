@@ -14,7 +14,7 @@ const { PUBLIC_URL } = process.env;
 // const Contact = lazy(() => import('./pages/Contact'));
 // <Route path="/contact" component={Contact} />
 
-// const Index = lazy(() => import('./pages/Index'));
+const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 // const Projects = lazy(() => import('./pages/Projects'));
 // add below in switch to reenable projects
@@ -31,7 +31,7 @@ const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Switch>
-        <Route exact path="/" component={Resume} />
+        <Route exact path="/" component={Index} />
         <Route path="/photography" component={Photography} />
         <Route path="/art" component={Art} />
         <Route path="/blog" component={Blog} />

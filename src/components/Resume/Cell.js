@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
-      <iframe title={data.title} src={`${process.env.PUBLIC_URL}${data.pdf}`} width="100%" height="1310px">resume</iframe>
+      <a href={data.pdf} className="image">
+        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+      </a>
     </article>
   </div>
 );
@@ -13,6 +15,8 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string,
     pdf: PropTypes.string,
+    google_pdf: PropTypes.string,
+    image: PropTypes.string,
   }).isRequired,
 };
 
