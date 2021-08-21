@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Resume/Cell';
-import data from '../data/resume';
+import Cell from '../components/Simple_Resume/Cell';
+import data from '../data/simple_resume';
 
 const Resume = () => (
   <Main
