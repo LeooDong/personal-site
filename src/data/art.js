@@ -1,6 +1,12 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Magnolias',
+    image: '/images/art/magnolias.jpg',
+    desc:
+      'Magnolias from Alexandria.',
+  },
+  {
     title: 'Grožnjan',
     image: '/images/art/groznjan.jpg',
     desc:

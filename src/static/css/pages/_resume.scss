@@ -36,6 +36,17 @@
 			}
 		}
 	}
+	.volunteering {
+		.title {
+			text-align: center;
+		}
+		.job {
+			margin: 1em;
+			p{
+				margin: 0;
+			}
+		}
+	}
 
 	.jobs-container {
 		.points {
@@ -76,6 +87,17 @@
 			text-align: center;
 		}
 	}
+}
+
+.positiontitle {
+	margin-bottom: .2em;
+	font-weight: bold;
+}
+
+.roledesc {
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
 }
 
 .daterange {

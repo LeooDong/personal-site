@@ -11,6 +11,12 @@ const degrees = [
     link: 'https://www.unsw.edu.au',
     year: 2016,
   },
+  {
+    school: 'Bucerius Law School',
+    degree: 'International and Comparative Law Exchange',
+    link: 'https://www.law-school.de/international/',
+    year: 2016,
+  },
 ];
 
 export default degrees;

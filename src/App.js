@@ -23,6 +23,7 @@ const Photography = lazy(() => import('./pages/Photography'));
 const Art = lazy(() => import('./pages/Art'));
 const Blog = lazy(() => import('./pages/Blog'));
 const Resume = lazy(() => import('./pages/Resume'));
+
 // const Stats = lazy(() => import('./pages/Stats'));
 // add below in switch to reenable projects
 // <Route path="/stats" component={Stats} />
