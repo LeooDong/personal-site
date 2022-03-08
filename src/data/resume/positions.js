@@ -1,9 +1,19 @@
 const positions = [
   {
+    company: 'Sainsburys',
+    position: 'Data Scientist',
+    link: 'https://www.sainsburys.co.uk',
+    daterange: 'December 2021 - Present',
+    roledescription: 'Developed customer-oriented models and analysis for one of UK’s oldest and largest supermarkets.',
+    points: [
+      // '',
+    ],
+  },
+  {
     company: 'Vonto',
     position: 'Lead Data Scientist',
     link: 'https://vonto.com',
-    daterange: 'April 2020 - Present',
+    daterange: 'November 2020 - November 2021',
     roledescription: 'Guided and implemented data science strategy, for a start-up aiming to simplify and enhance the operation of nascent small businesses by utilising customer data from leading SaaS solutions.',
     points: [
       'Led data science strategy for platform infrastructure suitability for long-term growth and the product roadmap.',
@@ -15,7 +25,7 @@ const positions = [
     company: 'University of Technology, Sydney',
     position: 'Academic Tutor',
     link: 'https://www.uts.edu.au',
-    daterange: 'June 2020 - Present',
+    daterange: 'June 2020 - October 2021',
     roledescription: 'Tutored and supervised coursework for the Masters of Data Science program.',
     points: [
       'Guided masters students through the life cycle of delivering industry sponsored projects and marked submissions.',
@@ -36,7 +46,7 @@ const positions = [
     company: 'Commonwealth Bank of Australia',
     position: 'Data Scientist',
     link: 'https://www.commbank.com.au',
-    daterange: 'October 2017 - April 2020',
+    daterange: 'October 2017 - November 2020',
     roledescription: 'Delivered projects within a data science team, using statistics and machine learning to build (end to end) and consult on bespoke, customer focused products at Australia\'s largest financial institution.',
     points: [
       'Predicted bill amount, frequency and future recurrence for over 7 million customers.',
@@ -46,7 +56,7 @@ const positions = [
   },
   {
     company: 'Commonwealth Bank of Australia',
-    position: 'Analyst',
+    position: 'Graduate Analyst',
     link: 'https://www.commbank.com.au',
     daterange: 'November 2015 - July 2016 | February 2017 - October 2017',
     roledescription: 'Made data-driven contributions to strategic sourcing and performance management centres of excellence.',
