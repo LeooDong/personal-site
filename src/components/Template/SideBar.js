@@ -22,12 +22,15 @@ const SideBar = () => (
       <p>Hey, I&apos;m Leo.
       </p>
       <p>
-        Professionally, I am currently using data science and machine learning to build novel product features at <a href="https://vonto.com/">Vonto</a>.
-        Prior to that, I was doing the same at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
+        Professionally, I am currently using data science and machine learning to create customer oriented models and analysis at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a>. This work has a customer marketing flavour, with particular emphasis on helping everyone eat better.
+      </p>
+      <p>
+        Prior to that, I was building novel product features at <a href="https://vonto.com/">Vonto</a>, a startup aiming to remove noise and complexity from a small business&apos;s data.
+        Even earlier, I was doing the same at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
         the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">this</a>.
       </p>
       <p>
-        In my free time at home or in lockdown, I spend it <a href="https://blog.leodong.me">writing</a>, reading and <a href="/art">painting</a>.
+        In my free time at home, I spend it <a href="https://blog.leodong.me">writing</a>, reading and <a href="/art">painting</a>.
         When I&apos;m out and about I am most likely travelling, playing
         football/futsal or doing some <a href="https://photo.leodong.me">photography</a>.
         Other things I have dabbled in include
