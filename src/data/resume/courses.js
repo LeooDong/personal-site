@@ -133,12 +133,6 @@ const courses = [
     link: 'http://web.stanford.edu/class/msande223/handout.htm',
     university: 'Stanford',
   },
-  {
-    title: 'Deep Learning for Natural Language Processing',
-    number: 'CS 224d',
-    link: 'http://cs224d.stanford.edu/',
-    university: 'Stanford',
-  },
 ];
 
 export default courses;
