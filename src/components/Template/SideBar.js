@@ -22,15 +22,15 @@ const SideBar = () => (
       <p>Hey, I&apos;m Leo.
       </p>
       <p>
-        Professionally, I am currently using data science and machine learning to create customer oriented models and analysis at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a>. This work has a customer marketing flavour, with particular emphasis on helping everyone eat better.
+        Professionally, I am currently using data science, ML and ML engineering to create customer oriented models and analysis at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a>. This work has a customer marketing flavour, with particular emphasis on helping everyone eat better.
       </p>
       <p>
-        Prior to that, I was building novel product features at <a href="https://vonto.com/">Vonto</a>, a startup aiming to remove noise and complexity from a small business&apos;s data.
-        Even earlier, I was doing the same at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
+        Prior to that, I was helping guide fintech startups through any data science or architectural challenges at <a href="https://www.x15ventures.com.au">x15ventures. </a>
+        Even earlier, I was working in Data Science at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
         the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">this</a>.
       </p>
       <p>
-        In my free time at home, I spend it <a href="https://blog.leodong.me">writing</a>, reading and <a href="/art">painting</a>.
+        In my free time at home, I spend it <a href="https://blog.leodong.me">writing</a>, <a href="https://blog.leodong.me/tag/reviews/">reading</a> and <a href="/art">painting</a>.
         When I&apos;m out and about I am most likely travelling, playing
         football/futsal or doing some <a href="https://photo.leodong.me">photography</a>.
         Other things I have dabbled in include

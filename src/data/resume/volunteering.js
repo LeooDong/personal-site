@@ -3,7 +3,7 @@ const positions = [
     company: 'University of Technology, Sydney',
     position: 'Mentor',
     link: 'https://www.uts.edu.au',
-    daterange: '2019 - Present',
+    daterange: '2019 - 2021',
     roledescription: 'Mentored undergraduate and postgraduate students to ease the transition from academia to industry.',
     points: [],
   },

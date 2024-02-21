@@ -4,21 +4,23 @@ const positions = [
     position: 'Data Scientist',
     link: 'https://www.sainsburys.co.uk',
     daterange: 'December 2021 - Present',
-    roledescription: 'Developed customer-oriented models and analysis for one of UK’s oldest and largest supermarkets.',
+    roledescription: 'Built customer-centred models and engineered ML Ops pipelines to deliver significant commercial outcomes for one of the UK’s largest supermarket and retail groups.',
     points: [
-      // '',
+      'Designed and implemented a Docker-based ML scoring pipeline to federate our models, which reduced third party costs and increased internal model adoption.',
+      'Collaborated with analysts and SMEs to create a first-of-its-kind, holistic, customer-level view of promotional spending, now used across all marketing to inform strategic decisions.',
+      'Increased digital marketing return on advertising spend by 216% and conversion value by 145% by deploying a customer value model and constructing corresponding data pipelines.',
     ],
   },
   {
-    company: 'Vonto',
-    position: 'Lead Data Scientist',
-    link: 'https://vonto.com',
+    company: 'x15',
+    position: 'Data Science Lead',
+    link: 'https://www.x15ventures.com.au',
     daterange: 'November 2020 - November 2021',
-    roledescription: 'Guided and implemented data science strategy, for a start-up aiming to simplify and enhance the operation of nascent small businesses by utilising customer data from leading SaaS solutions.',
+    roledescription: 'Guided and implemented data science strategy, for a multitude of start-ups in the fintech space.',
     points: [
-      'Led data science strategy for platform infrastructure suitability for long-term growth and the product roadmap.',
-      'Built production data features and insights (our differentiated end product) off customer\'s SaaS API data.',
-      'Performed customer analytics and segmentation, directing the team towards actions that improved customer acquisition and engagement.',
+      'Led data science strategy for Vonto, a B2B startup, and directed product build while performing customer analytics.',
+      'Developed time-series models for customers to efficiently decompose business expenses, leading to improved cost management.',
+      'Consulted on personalisation methodology for the initial build of its core recommendation system as part of the founding team of Cheddar, an AI-powered deal discovery app co-developed with BCG Digital Ventures.',
     ],
   },
   {
@@ -29,17 +31,6 @@ const positions = [
     roledescription: 'Tutored and supervised coursework for the Masters of Data Science program.',
     points: [
       'Guided masters students through the life cycle of delivering industry sponsored projects and marked submissions.',
-    ],
-  },
-  {
-    company: 'BCG Digital Ventures',
-    position: 'Data Science Consultant',
-    link: 'https://www.bcgdv.com',
-    daterange: 'March 2021 - July 2021',
-    roledescription: 'Consulted, as a secondee, for the founding team of Cheddar, a deal discovery app helping young Australians find relevant deals from brands they love.',
-    points: [
-      'Advised on personalisation strategies for deal suggestions for the product.',
-      'Conducted an audit on the codebase preceding alpha launch.',
     ],
   },
   {
