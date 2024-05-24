@@ -48,6 +48,10 @@ Your web browser should automatically open to `<ip>:<port>:<path>` default: [htt
 3. If you plan on using a custom domain, modify `public/CNAME`. If you don't, delete `public/CNAME`.
 4. RUN `npm run deploy` to build and deploy the site to github pages.
 
+### Leo's instructions
+1. run `npm run build`
+2. run `npm run deploy`
+
 ### Static Export
 
 To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `personal-site/build/`. Copy this and self-host or deploy to a CDN.
