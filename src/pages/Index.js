@@ -7,7 +7,7 @@ import data from '../data/index';
 
 const Index = () => (
   <Main
-    description={"Leo Dong's personal website."}
+    description="Leo Dong's personal website."
   >
     <article className="post" id="index">
       <header>

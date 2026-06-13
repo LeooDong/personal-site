@@ -5,7 +5,7 @@ import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
-import Volunteer from '../components/Resume/Volunteering';
+// import Volunteer from '../components/Resume/Volunteering';
 // import Skills from '../components/Resume/Skills';
 // import Courses from '../components/Resume/Courses';
 // import References from '../components/Resume/References';
@@ -16,14 +16,14 @@ import Volunteer from '../components/Resume/Volunteering';
 // <Courses data={courses} />
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
-import volunteering from '../data/resume/volunteering';
+// import volunteering from '../data/resume/volunteering';
 // import { skills, categories } from '../data/resume/skills';
 // <Skills skills={skills} categories={categories} />
 
 const sections = [
   'Education',
   'Experience',
-  'Volunteering',
+  // 'Volunteering',
   // 'Skills',
   // 'Courses',
   // 'References',
@@ -51,7 +51,7 @@ const Resume = () => (
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
-      <Volunteer data={volunteering} />
+      {/* <Volunteer data={volunteering} /> */}
 
     </article>
   </Main>

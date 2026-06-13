@@ -7,7 +7,7 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const SideBar = () => (
   <section id="sidebar">
-    <section id="intro" align="center">
+    <section id="intro" style={{ textAlign: 'center' }}>
       <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
@@ -22,10 +22,11 @@ const SideBar = () => (
       <p>Hey, I&apos;m Leo.
       </p>
       <p>
-        Professionally, I am currently using data science, ML and ML engineering to create customer oriented models and analysis at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a>. This work has a customer marketing flavour, with particular emphasis on helping everyone eat better.
+        Professionally, I am currently using data science, machine learning, and some software engineering to create customer oriented models and analysis at <a href="https://www.eucalyptus.health">Eucalyptus</a>.
       </p>
       <p>
-        Prior to that, I was helping guide fintech startups through any data science or architectural challenges at <a href="https://www.x15ventures.com.au">x15ventures. </a>
+        Previously, I had stints at <a href="https://www.checkout.com">Checkout.com</a> running data science for their internal money flows
+        and at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a> doing modelling with a customer marketing flavour.
         Even earlier, I was working in Data Science at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
         the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">this</a>.
       </p>
@@ -34,16 +35,16 @@ const SideBar = () => (
         When I&apos;m out and about I am most likely travelling, playing
         football/futsal or doing some <a href="https://photo.leodong.me">photography</a>.
         Other things I have dabbled in include
-        scuba diving, volleyball and skiing.
+        scuba diving, volleyball, netball and skiing.
       </p>
-      <ul className="actions" align="center">
+      <ul className="actions" style={{ textAlign: 'center' }}>
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Read More</Link> : <Link to="/blog" className="button">My Blog</Link>}
         </li>
       </ul>
     </section>
 
-    <section id="footer" align="center">
+    <section id="footer" style={{ textAlign: 'center' }}>
       <ContactIcons />
     </section>
   </section>

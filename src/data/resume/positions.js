@@ -1,25 +1,44 @@
 const positions = [
   {
+    company: 'Eucalyptus',
+    position: 'Data Science Lead',
+    link: 'https://www.eucalyptus.health',
+    daterange: 'May 2026 - Present',
+    roledescription: 'Establishing a new applied ML and data science function in London.',
+    points: [
+      'Defining the experimentation framework and ML decisioning approach to lift key business KPIs among existing users.',
+    ],
+  },
+  {
+    company: 'Checkout.com',
+    position: 'Senior Data Scientist',
+    link: 'https://www.checkout.com',
+    daterange: 'November 2024 - May 2026',
+    roledescription: 'Built the analytics function for the end-to-end money flow at Checkout.com, a global payments processor.',
+    points: [
+      'Defined north-star metrics and stood up analytics as the first Data Scientist in the Financial Experiences pillar — a cross-functional team of 50+ engineers and PMs overseeing all funds flow through the platform.',
+      'Enabled the launch of a new acceleration product distributing over $100m daily, by freeing up $5m in liquidity, modelling the cost base across global jurisdictions, and projecting future revenue.',
+    ],
+  },
+  {
     company: 'Sainsburys',
-    position: 'Data Scientist',
+    position: 'Data Scientist / Machine Learning Engineer',
     link: 'https://www.sainsburys.co.uk',
-    daterange: 'December 2021 - Present',
+    daterange: 'December 2021 - November 2024',
     roledescription: 'Built customer-centred models and engineered ML Ops pipelines to deliver significant commercial outcomes for one of the UK’s largest supermarket and retail groups.',
     points: [
       'Designed and implemented a Docker-based ML scoring pipeline to federate our models, which reduced third party costs and increased internal model adoption.',
       'Collaborated with analysts and SMEs to create a first-of-its-kind, holistic, customer-level view of promotional spending, now used across all marketing to inform strategic decisions.',
-      'Increased digital marketing return on advertising spend by 216% and conversion value by 145% by deploying a customer value model and constructing corresponding data pipelines.',
     ],
   },
   {
     company: 'x15',
-    position: 'Data Science Lead',
+    position: 'Lead Data Scientist',
     link: 'https://www.x15ventures.com.au',
     daterange: 'November 2020 - November 2021',
     roledescription: 'Guided and implemented data science strategy, for a multitude of start-ups in the fintech space.',
     points: [
       'Led data science strategy for Vonto, a B2B startup, and directed product build while performing customer analytics.',
-      'Developed time-series models for customers to efficiently decompose business expenses, leading to improved cost management.',
       'Consulted on personalisation methodology for the initial build of its core recommendation system as part of the founding team of Cheddar, an AI-powered deal discovery app co-developed with BCG Digital Ventures.',
     ],
   },
@@ -47,7 +66,7 @@ const positions = [
   },
   {
     company: 'Commonwealth Bank of Australia',
-    position: 'Graduate Analyst',
+    position: 'Analyst',
     link: 'https://www.commbank.com.au',
     daterange: 'November 2015 - July 2016 | February 2017 - October 2017',
     roledescription: 'Made data-driven contributions to strategic sourcing and performance management centres of excellence.',
