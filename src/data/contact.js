@@ -22,7 +22,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:leozhdong@gmail.com',
+    link: 'mailto:hello@leodong.me',
     label: 'Email',
     icon: faEnvelope,
   },

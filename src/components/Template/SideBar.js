@@ -13,7 +13,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Leo Dong</h2>
-        <p><a href="mailto:leozhdong@gmail.com">leozhdong@gmail.com</a></p>
+        <p><a href="mailto:hello@leodong.me">hello@leodong.me</a></p>
       </header>
     </section>
 
@@ -25,13 +25,13 @@ const SideBar = () => (
         Professionally, I lead data science at <a href="https://www.eucalyptus.health">Eucalyptus</a> / Hims &amp; Hers, building out an applied ML function in London focused on monetisation, churn and retention.
       </p>
       <p>
-        Previously, I had stints at <a href="https://www.checkout.com">Checkout.com</a> running data science for their internal money flows
+        Before that, I was at <a href="https://www.checkout.com">Checkout.com</a> running data science for their internal money flows
         and at <a href="https://www.sainsburys.co.uk">Sainsbury&apos;s</a> doing modelling with a customer marketing flavour.
-        Even earlier, I was working in Data Science at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
-        the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">this</a>.
+        Even earlier, I was working in data science at <a href="https://www.commbank.com.au">the Commonwealth Bank of Australia</a> in
+        the financial wellbeing space, building things like <a href="https://www.commbank.com.au/digital-banking/bill-sense.html">Bill Sense</a>.
       </p>
       <p>
-        In my free time at home, I spend it <a href="https://blog.leodong.me">writing</a>, <a href="https://blog.leodong.me/tag/reviews/">reading</a> and <a href="/art">painting</a>.
+        At home, I spend my free time <a href="https://blog.leodong.me">writing</a>, <a href="https://blog.leodong.me/tag/reviews/">reading</a> and <a href="/art">painting</a>.
         When I&apos;m out and about I am most likely travelling, playing
         football/futsal or doing some <a href="https://photo.leodong.me">photography</a>.
         Other things I have dabbled in include
