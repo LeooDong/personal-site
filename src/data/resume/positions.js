@@ -1,12 +1,13 @@
 const positions = [
   {
-    company: 'Eucalyptus',
+    company: 'Eucalyptus / Hims & Hers',
     position: 'Data Science Lead',
     link: 'https://www.eucalyptus.health',
     daterange: 'May 2026 - Present',
-    roledescription: 'Establishing a new applied ML and data science function in London.',
+    roledescription: 'Establishing a new applied ML and data science function in London, owning monetisation, churn, retention and CRM modelling.',
     points: [
       'Defining the experimentation framework and ML decisioning approach to lift key business KPIs among existing users.',
+      'Early churn experiments have increased retention by 4pp.',
     ],
   },
   {

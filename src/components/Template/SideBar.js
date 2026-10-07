@@ -22,7 +22,7 @@ const SideBar = () => (
       <p>Hey, I&apos;m Leo.
       </p>
       <p>
-        Professionally, I am currently using data science, machine learning, and some software engineering to create customer oriented models and analysis at <a href="https://www.eucalyptus.health">Eucalyptus</a>.
+        Professionally, I lead data science at <a href="https://www.eucalyptus.health">Eucalyptus</a> / Hims &amp; Hers, building out an applied ML function in London focused on monetisation, churn and retention.
       </p>
       <p>
         Previously, I had stints at <a href="https://www.checkout.com">Checkout.com</a> running data science for their internal money flows
