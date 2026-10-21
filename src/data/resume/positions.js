@@ -9,7 +9,7 @@ const positions = [
       'Own CRM decisioning: who we contact, when, and with what.',
       'Build churn models feeding retention KPIs, and upsell models driving monetisation.',
       'Define the experimentation framework and ML decisioning approach.',
-      'Set the data science roadmap and deliver it end to end, using agentic AI (Claude Code, Codex) to run multiple workstreams in parallel.',
+      'Set the data science roadmap and deliver it end to end, using agentic AI to run multiple workstreams in parallel.',
     ],
   },
   {
