@@ -26,7 +26,7 @@ const positions = [
   },
   {
     company: 'Sainsbury\'s',
-    position: 'Machine Learning Engineer / Data Scientist',
+    position: 'Data Scientist (Machine Learning Engineering)',
     link: 'https://www.sainsburys.co.uk',
     daterange: 'December 2021 - November 2024',
     roledescription: 'Built customer models and MLOps pipelines for one of the UK’s largest supermarket and retail groups.',
@@ -61,11 +61,11 @@ const positions = [
     company: 'Commonwealth Bank of Australia',
     position: 'Data Scientist',
     link: 'https://www.commbank.com.au',
-    daterange: 'October 2017 - November 2020',
+    daterange: 'December 2017 - November 2020',
     roledescription: 'Delivered projects within a data science team, using statistics and machine learning to build (end to end) and consult on bespoke, customer focused products at Australia\'s largest financial institution.',
     points: [
-      'Built Bill Sense, a customer-facing app feature predicting bill amount, frequency and recurrence for over 7 million customers, and notifying them when their bill pricing changed.',
-      'Matched customers to eligible government rebates, unlocking A$500m+ for customers and winning the Gartner Eye on Innovation Award.',
+      'Co-built and deployed Bill Sense, a customer-facing app feature predicting bill amount, frequency and recurrence for over 7 million customers, and notifying them when their bill pricing changed.',
+      'Helped match customers to eligible government rebates, unlocking A$500m+ for customers; the team won the Gartner Eye on Innovation Award.',
       'Built economic forecasts from longitudinal customer data for the Australian Federal Cabinet during the COVID-19 pandemic.',
     ],
   },
@@ -73,7 +73,7 @@ const positions = [
     company: 'Commonwealth Bank of Australia',
     position: 'Analyst',
     link: 'https://www.commbank.com.au',
-    daterange: 'November 2015 - January 2016 | November 2016 - October 2017',
+    daterange: 'November 2015 - June 2016 | February 2017 - December 2017',
     roledescription: 'Provided analytics for the strategic sourcing and performance management centres of excellence.',
     points: [
       'Analysed trends in technology usage and contingent employee costs.',
