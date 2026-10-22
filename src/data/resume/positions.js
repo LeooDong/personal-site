@@ -25,6 +25,20 @@ const positions = [
     ],
   },
   {
+    company: 'The Entire History of Us',
+    position: 'Founder',
+    link: 'https://entirehistoryofus.com',
+    daterange: 'May 2024 - Present',
+    points: [
+      [
+        'Built a ',
+        { text: 'reusable agentic LLM engine', link: 'https://github.com/LeooDong/universe_builder' },
+        ' in tested Python (pytest, CI) that generates and cross-links a 40,000-record historical corpus for a Flutter iOS timeline app (public TestFlight beta).',
+      ],
+      'Designed its LLM evaluation framework (schema checks, tiered LLM-as-judge, significance-tested prompt A/B tests), holding wrong-subject records to 0.25% on a 7,900-record batch.',
+    ],
+  },
+  {
     company: 'Sainsbury\'s',
     position: 'Data Scientist (Machine Learning Engineering)',
     link: 'https://www.sainsburys.co.uk',

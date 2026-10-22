@@ -24,7 +24,7 @@ Experience.propTypes = {
     position: PropTypes.string,
     link: PropTypes.string,
     daterange: PropTypes.string,
-    points: PropTypes.arrayOf(PropTypes.string),
+    points: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.array])),
   })),
 };
 

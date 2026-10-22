@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// A point is a string, or an array of strings and { text, link } parts.
+const pointText = (point) => (typeof point === 'string' ? point
+  : point.map((part) => (typeof part === 'string' ? part : part.text)).join(''));
+
 const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
@@ -8,10 +12,14 @@ const Job = ({ data }) => (
       <p className="positiontitle">{data.position}</p>
       <p className="daterange"> {data.daterange}</p>
     </header>
-    <p className="roledesc">{data.roledescription}</p>
+    {data.roledescription && <p className="roledesc">{data.roledescription}</p>}
     <ul className="points">
       {data.points.map((point) => (
-        <li key={point}>{point}</li>
+        <li key={pointText(point)}>
+          {typeof point === 'string' ? point : point.map((part) => (
+            typeof part === 'string' ? part : <a key={part.link} href={part.link}>{part.text}</a>
+          ))}
+        </li>
       ))}
     </ul>
   </article>
@@ -24,7 +32,13 @@ Job.propTypes = {
     position: PropTypes.string.isRequired,
     daterange: PropTypes.string.isRequired,
     roledescription: PropTypes.string,
-    points: PropTypes.arrayOf(PropTypes.string),
+    points: PropTypes.arrayOf(PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.arrayOf(PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.shape({ text: PropTypes.string, link: PropTypes.string }),
+      ])),
+    ])),
   }).isRequired,
 };
 
