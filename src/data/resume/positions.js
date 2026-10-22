@@ -20,7 +20,7 @@ const positions = [
     roledescription: 'First data scientist covering end-to-end funds flow at Checkout.com, a global payments processor.',
     points: [
       'Defined north star metrics and net revenue targets, and shaped cost optimisation initiatives, for the Financial Experiences pillar — a cross-functional team of 50+ engineers and PMs overseeing all funds flow through the platform.',
-      'Enabled the launch of a new product distributing over $100m daily by modelling liquidity, the cost base across global jurisdictions, and future revenue.',
+      'Enabled the launch of a new product distributing over US$100m daily by modelling liquidity, the cost base across global jurisdictions, and future revenue.',
       'Led rapid-response analytics and controls for EU/UK/MENA/US regulatory compliance, supporting global expansion and new operating licences.',
     ],
   },
@@ -65,7 +65,7 @@ const positions = [
     roledescription: 'Delivered projects within a data science team, using statistics and machine learning to build (end to end) and consult on bespoke, customer focused products at Australia\'s largest financial institution.',
     points: [
       'Co-built and deployed Bill Sense, a customer-facing app feature predicting bill amount, frequency and recurrence for over 7 million customers, and notifying them when their bill pricing changed.',
-      'Helped match customers to eligible government rebates, unlocking A$500m+ for customers; the team won the Gartner Eye on Innovation Award.',
+      'Defined the eligibility matching that connected customers to government rebates, unlocking A$500m+ for customers; the team won the 2019 Gartner Eye on Innovation Award.',
       'Built economic forecasts from longitudinal customer data for the Australian Federal Cabinet during the COVID-19 pandemic.',
     ],
   },
